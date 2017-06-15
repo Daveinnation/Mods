@@ -1,0 +1,30 @@
+package collinnation.Stuff;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.item.Item;
+
+@Mod(modid = "S", name = "Stuff mod", version = "1.0")
+public class Stuff {
+	
+	public static Item itemPlastic;
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		//Item/Block init and registry
+		
+		//Config Handling
+		itemPlastic = new itemPlastic();
+	}
+	@EventHandler
+	public void Init(FMLInitializationEvent event) {
+		//Proxy, TileEntity, Entity, GUI, Packet
+	}
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		
+	}
+}

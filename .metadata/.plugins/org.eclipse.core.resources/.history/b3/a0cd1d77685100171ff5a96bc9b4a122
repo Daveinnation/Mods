@@ -1,0 +1,8 @@
+package collinnation.Government;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "Gov", name = "Government mod", version = "1.0")
+public class Government {
+
+}

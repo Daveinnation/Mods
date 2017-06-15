@@ -1,0 +1,26 @@
+package collinnation.Government;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = "Gov", name = "Government mod", version = "1.0")
+public class Government {
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		//Item/Block init and registry
+		
+		//Config Handling
+		
+	}
+	@EventHandler
+	public void Init(FMLInitializationEvent event) {
+		//Proxy, TileEntity, Entity, GUI, Packet
+	}
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		//
+	}
+}
